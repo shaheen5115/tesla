@@ -1,0 +1,445 @@
+@font-face {
+    font-family: system;
+    font-style: normal;
+    font-weight: light;
+    src:local(".LucidaGrandeUI"),local("Ubuntu Light"),local("Segoe UI Light"),local("Roboto-Light"),local("DroidSans"),local("Tahoma");
+}
+*{
+  box-sizing: border-box;  
+}
+body{
+    font-family: system;
+    font-weight: bold; 
+    letter-spacing: 1px;
+    margin: 0%;
+    padding: 0%;
+}
+#sec-1{
+    height: 100vh;
+    width: 100%;
+}
+.vid-1{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#sec-2{
+    height: 100vh;
+    width: 100%;
+}
+.img-1{
+    height: 107vh;
+    width: 100%;
+    object-fit: cover;
+}
+#sec-3{
+    height: 100vh;
+    width: 100%;
+}
+.img-2{
+    height: 107vh;
+    width: 100%;
+    object-fit: cover;
+}
+#sec-4{
+    height: 100vh;
+    width: 100%;
+}
+.img-3{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover
+}
+#sec-5{
+    height: 100vh;
+    width: 100%;
+}
+.vid-2{
+    height: 101vh;
+    width: 100%;
+    object-fit: cover;
+}
+#sec-6{
+    height: 100vh;
+    width: 100%;
+}
+.img-4{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover
+}
+#sec-7{
+    height: 100vh;
+    width: 100%;
+}
+.img-5{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover
+}
+#sec-8{
+    height: 100vh;
+    width: 100%;
+}
+.img-6{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover
+}
+#sec-9{
+    height: 100vh;
+    width: 100%;
+}
+.img-7{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover
+}
+#header-2{
+    background-color: beige;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    margin-top: 54px
+    
+}
+.logo{
+    height: 21px;
+    width: 122px;
+    color: white;
+}
+#header-1{
+    background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,51.92) 0,rgba(0,0,0,100%) 100%);
+    height: 76px;
+    width: 100%;
+    margin-top: -22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: fixed;
+    z-index: 1;
+    
+}
+.tax{
+    width: 355.16px;
+    height: 60px;
+    margin-left: 195px;
+}
+#header-2{
+    margin-left: 4px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 50px;
+    padding: 0 45px;
+    background-color: transparent;
+    margin-top: 56px;
+    cursor: pointer;
+}
+.t-1{
+    margin-top: 20px;
+    font-size: 9px;
+    letter-spacing: 1.25px;
+    
+}
+.t-2{
+    font-size: 15px;
+    margin-top: 23px;
+    
+}
+.t-3{
+    
+    margin-top: 20px;
+    text-decoration: underline ;
+    color: white;
+}
+.t-4{
+    gap: 33px;
+
+    /* margin-left: 400px; */
+}
+.t-5{
+    color:white;
+    background: transparent;
+}
+.t-7{
+    background-color:transparent;
+    font-size: 24px;
+    margin-left: 12px;
+}
+.sh{
+    margin-right: 379px;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.fa-solid{
+    margin-left: -3px;
+    margin-right: -16px;
+    cursor: pointer;           ;
+}
+#header2-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    margin-right: 39px;
+
+    margin-top: 2px;
+    
+    gap: 12px;
+    font-size: 18px;
+    color: transparent;
+}
+.p-img{
+    width: 20px;
+    background: transparent;
+}
+.sect-1{
+    background: transparent;
+    position: absolute;
+    margin-left: 675px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 102px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect1-2{
+    font-weight: lighter;
+    margin-left: -6px;
+    font-size: 23px;
+    margin-top: -25px;
+
+}
+.sect1-3{
+    margin-left: -62px;
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.sect-2{
+    background: transparent;
+    position: absolute;
+    margin-left: 675px;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 104px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect2-2{
+    font-weight: lighter;
+    margin-left: -5px;
+    font-size: 21px;
+    margin-top: -25px;
+}
+.sect2-3{
+    margin-left: -62px;
+    margin-top: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.sect-3{
+    background: transparent;
+    position: absolute;
+    margin-left: 678px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 104px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect3-2{
+    font-weight: lighter;
+    margin-left: 4px;
+    font-size: 20px;
+    margin-top: -28px;
+}
+.sect3-3{
+    margin-left: 11px;
+    margin-top: 1px;
+    font-size: 12px;
+    font-weight: lighter;
+   
+}
+.sect-4{
+    background: transparent;
+    position: absolute;
+    margin-left: 678px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 104px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect4-2{
+    font-weight: lighter;
+    margin-left: 4px;
+    font-size: 20px;
+    margin-top: -28px;
+}
+.sect4-3{
+    margin-left: -47px;
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.sect-5{
+    background: transparent;
+    position: absolute;
+    margin-left: 586px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 92px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect5-2{
+    margin-left: 63px;
+    margin-top: -26px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.sect-6{
+    background: transparent;
+    position: absolute;
+    margin-left: 631px;
+    font-size: 29px;
+    font-weight: 800;
+    margin-top: 94px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect6-2{
+    margin-left: 16px;
+    margin-top: -30px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-underline-position: under;
+}
+.sect-7{
+    background: transparent;
+    position: absolute;
+    margin-left: 653px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect7-2{
+    margin-left: -33px;
+    margin-top: -30px;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+.sect-8{
+    background: transparent;
+    position: absolute;
+    margin-left: 653px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 64px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect-9{
+    background: transparent;
+    position: absolute;
+    margin-left: 639px;
+    font-size: 27px;
+    font-weight: 800;
+    margin-top: 43px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.sect1-4{
+    background: transparent;
+    position: absolute;
+    margin-left: 470px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 688px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.sect1-5{
+    background: transparent;
+    position: absolute;
+    margin-left: 666px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 706px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-underline-position: under;
+    cursor: pointer;
+
+}
+.sect3-4{
+    background: transparent;
+    position: absolute;
+    margin-left: 513px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 688px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.sect3-5{
+    background: transparent;
+    position: absolute;
+    margin-left: 666px;
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: 706px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-underline-position: under; 
+    cursor: pointer;
+}
+#footer{
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    gap: 18px;
+    font-size: 15px;
+    align-items: center;
+    margin-top: -43px;
+    margin-left: 19px;
+    cursor: pointer;
+}
+
